@@ -10,7 +10,7 @@ Globals:
     Timeout: 3
 
 Conditions:
-  IsProduction: !Equals [!Ref "AWS::StackName", "sam-app-prod"]
+  IsProduction: !Equals [!Ref "AWS::StackName", "the-complete-sam-workshop-github-actions-prod"]
 
 Resources:
   HelloWorldFunction:
